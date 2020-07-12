@@ -177,7 +177,7 @@
             <img class="card-img-top" src='{% if product.photo %}{{product.photo.url}}{% endif %}' alternate='Image not supplied'>
             <div class="card-body">
               <h5 class="card-title">{{ product.name }}</h5>
-              <p class="card-text">₹{{ product.c_type }}</p>
+              <p class="card-text">{{ product.c_type }}</p>
               <p class="card-text">₹{{ product.price }}</p>
 
 
